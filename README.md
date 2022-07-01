@@ -1,6 +1,7 @@
 ## An alignment for Animal Faces-HQ dataset (AFHQ)
 <p align="left"><img width="95%" src="assets/afhq_dataset.jpg" /></p>
 AFHQ is a high-quality (512x512) image dataset of animal faces, totally consisting 15,000 images of cats, dog and wildlife. An alignment method for AFHQ is quoted from [Paperswithcode website](https://paperswithcode.com/dataset/afhq).
+
 > All images are vertically and horizontally aligned to have the eyes at the center.
 
 In this repository, our alignment is based on [Flickr-Faces-HQ Dataset (FFHQ) Alignment](https://github.com/NVlabs/ffhq-dataset/blob/master/download_ffhq.py#L259-L380). We modify the function without a measure between eyes and mouth. The results show as following,
